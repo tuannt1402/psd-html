@@ -1,6 +1,6 @@
 # Javascrpit cơ bản
 ## 1. How to run Javascrpit
- ##### **Gắn link hoặc viết trực tiếp dưới thẻ body**
+ #### **Gắn link hoặc viết trực tiếp dưới thẻ body**
 
 ##  2. Thao tác cơ bản với DOM để tạo hiệu ứng cho web
 ### Thao tác với DOM
