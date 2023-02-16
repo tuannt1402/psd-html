@@ -18,23 +18,23 @@ attributes: Tập các thuộc tính như id, name, class, href, title…
 > * **value:** Lấy giá trị của thành phần được chọn thành một biến.
 
 #### **Phương thức:**
-* **getElementById(id):** Tham chiếu đến 1 nút duy nhất có thuộc tính **id** giống với id cần tìm.
-* **getElementsByTagName(tagname)** Tham chiếu đến tất cả các nút có thuộc tính **tagName** giống với tên thẻ cần tìm, hay hiểu đơn giản hơn là tìm tất cả các phần tử DOM mang thẻ HTML cùng loại. Nếu muốn truy xuất đến toàn bộ thẻ trong tài liệu HTML thì hãy sử dụng **document.getElementsByTagName('*').**
-* **getElementsByName(name):** Tham chiếu đến tất cả các nút có thuộc tính name cần tìm.
-* **getAttribute(attributeName):** Lấy giá trị của thuộc tính.
-* **setAttribute(attributeName, value):** Sửa giá trị của thuộc tính.
-* **appendChild(node):** Thêm 1 nút con vào nút hiện tại.
-* **removeChild(node):** Xóa 1 nút con khỏi nút hiện tại.
+> * **getElementById(id):** Tham chiếu đến 1 nút duy nhất có thuộc tính **id** giống với id cần tìm.
+> * **getElementsByTagName(tagname)** Tham chiếu đến tất cả các nút có thuộc tính **tagName** giống với tên thẻ cần tìm, hay hiểu đơn giản hơn là tìm tất cả các phần tử DOM mang thẻ HTML cùng loại. Nếu muốn truy xuất đến toàn bộ thẻ trong tài liệu HTML thì hãy sử dụng **document.getElementsByTagName('*').**
+> * **getElementsByName(name):** Tham chiếu đến tất cả các nút có thuộc tính name cần tìm.
+> * **getAttribute(attributeName):** Lấy giá trị của thuộc tính.
+> * **setAttribute(attributeName, value):** Sửa giá trị của thuộc tính.
+> * **appendChild(node):** Thêm 1 nút con vào nút hiện tại.
+> * **removeChild(node):** Xóa 1 nút con khỏi nút hiện tại.
 
 ### **Truy xuất DOM**
 #### **Truy xuất trực tiếp:**
-* **document.getElementById('id_cần_tìm')**
-* **document.getElementsByTagName('div')**
-* **document.getElementsByName('tên_cần_tìm')**
+> * **document.getElementById('id_cần_tìm')**
+> * **document.getElementsByTagName('div')**
+> * **document.getElementsByName('tên_cần_tìm')**
 
 ### **Tạo mới, thêm, xóa, thay thế HTML**
-* **document.createElement(tag_name)**: Tạo ra phần tử có thẻ tag_name như a, p, div,...
-* **element.cloneNode()**: Tạo ra 1 phần tử bằng cách nhân bản phần tử chỉ ra (element)
-* **document.createTextNode(text)**: Tạo ra 1 nút văn bản
+> * **document.createElement(tag_name)**: Tạo ra phần tử có thẻ tag_name như a, p, div,...
+> * **element.cloneNode()**: Tạo ra 1 phần tử bằng cách nhân bản phần tử chỉ ra (element)
+> * **document.createTextNode(text)**: Tạo ra 1 nút văn bản
 ## 3. Kiến thức Javascript cơ bản: 
 ######    *  Các kiểu dữ liệu, toán tử, 
