@@ -50,19 +50,21 @@ $ git tag -a tên_tag -m "comment"
 ~~~ 
 
 ### **Một số lệnh thông dụng**
-* **show tag:**
+**show tag:**
 ~~~
 $ git show tên_tag
 ~~~ 
 
-* **Liệt kê -n tag đầu của danh sách:**
+**Liệt kê -n tag đầu của danh sách:**
 ~~~
 $ git tag -l -n
 ~~~ 
 
-* **Xóa tag:**
+**Xóa tag:**
 ~~~
 $ git tag -d tên_tag
 ~~~ 
+
+### **Tạo release tag trên github**
 ## 4. Kiến thức Javascript cơ bản: 
 ######    *  Các kiểu dữ liệu, toán tử, 
