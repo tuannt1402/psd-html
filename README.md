@@ -67,4 +67,30 @@ $ git tag -d tên_tag
 
 ### **Tạo release tag trên github**
 ## 4. Kiến thức Javascript cơ bản: 
-######    *  Các kiểu dữ liệu, toán tử, 
+## **Các Kiểu Dữ Liệu:**
+### **Dữ Liệu Nguyên Thủy:**
+* **Number:** là kiểu dữ liệu dạng số (tương tự trong toán học). Number trong JavaScript không có cú pháp gì đặc biệt. Bạn chỉ cần viết số ra 
+~~~
+var a = 1;
+var b = 1.5;
+~~~
+* **Boolean:** lưu trữ hai giá trị đúng (true) và sai (false). Biến kiểu boolean có thể được dùng thay cho điều kiện trong các câu lệnh khác
+~~~
+var a = true;
+~~~
+
+* **String :** là kiểu dữ liệu dùng để biểu diễn chữ, văn bản, đoạn văn bản,...
+~~~
+var a ="Ho va Ten";
+~~~
+
+* **Null:** là một kiểu dữ liệu đặc biệt, chỉ bao gồm một giá trị là null, giá trị không xác định
+~~~
+var a = null;
+~~~
+
+* **Undefined:** là một kiểu dữ liệu đặc biệt, chỉ bao gồm một giá trị là undefined, giá trị chưa được gán
+~~~
+var a = undefined;
+~~~
+### **Dữ Liệu Phức Tạp:**
