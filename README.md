@@ -36,5 +36,33 @@ attributes: Tập các thuộc tính như id, name, class, href, title…
 > * **document.createElement(tag_name)**: Tạo ra phần tử có thẻ tag_name như a, p, div,...
 > * **element.cloneNode()**: Tạo ra 1 phần tử bằng cách nhân bản phần tử chỉ ra (element)
 > * **document.createTextNode(text)**: Tạo ra 1 nút văn bản
-## 3. Kiến thức Javascript cơ bản: 
+
+## 3. Tạo tag và release tag
+### **Tạo tag**
+* **Lightweight** tag:
+~~~
+$ git tag tên_tag
+~~~ 
+
+* **Annotated** tag:
+~~~
+$ git tag -a tên_tag -m "comment"
+~~~ 
+
+### **Một số lệnh thông dụng**
+* **show tag:**
+~~~
+$ git show tên_tag
+~~~ 
+
+* **Liệt kê -n tag đầu của danh sách:**
+~~~
+$ git tag -l -n
+~~~ 
+
+* **Xóa tag:**
+~~~
+$ git tag -d tên_tag
+~~~ 
+## 4. Kiến thức Javascript cơ bản: 
 ######    *  Các kiểu dữ liệu, toán tử, 
