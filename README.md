@@ -67,6 +67,14 @@ $ git tag -d tên_tag
 
 ### **Tạo release tag trên github**
 ## 4. Kiến thức Javascript cơ bản: 
+## **Đặt tên hàm:**
+~~~
+"get…"- trả về một giá trị,
+"calc…"- tính toán một cái gì đó,
+"create…"- tạo ra một cái gì đó,
+"check…"– kiểm tra một cái gì đó và trả về một boolean, v.v.
+~~~
+
 ## **Các Kiểu Dữ Liệu:**
 ### **Dữ Liệu Nguyên Thủy:**
 * **Number:** là kiểu dữ liệu dạng số (tương tự trong toán học). Number trong JavaScript không có cú pháp gì đặc biệt. Bạn chỉ cần viết số ra 
@@ -94,3 +102,16 @@ var a = null;
 var a = undefined;
 ~~~
 ### **Dữ Liệu Phức Tạp:**
+* **object:** Object là kiểu dữ liệu tham chiếu. Có thể hiểu object là một tập hợp gồm các cặp key - value (khóa - giá trị).
+~~~
+var aObject = {
+    name: 'Tuan Nguyen',
+    age: 18,
+}
+
+var aObject = [
+    'Tuan Nguyen',
+    '18'
+];
+~~~
+
