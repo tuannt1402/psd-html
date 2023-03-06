@@ -53,3 +53,22 @@ alert('World')
 alert( '1' + 2 ); // '12', string
 alert( 1 + '2' ); // '12', string
 ~~~
+
+##### Toán tử Bitwise: hoạt động với số nguyên 32 bit ở cấp độ bit thấp nhất
+##### Điều Kiện:
+> Toán tử duy nhất có ba tham số: **cond ? resultA : resultB**. Nếu **cond** là sự thật, trả về **resultA**, nếu không **resultB**.
+##### Toán tử logic 
+> Logic AND **&&** và OR **||** thực hiện đánh giá ngắn mạch và sau đó trả về giá trị tại nơi nó dừng (không cần thiết **true/ false**). Logical NOT **!** chuyển đổi toán hạng thành kiểu boolean và trả về giá trị nghịch đảo.
+
+##### Toán tử hợp nhất Nullish
+> Toán **??** tử cung cấp một cách để chọn một giá trị xác định từ danh sách các biến. Kết quả của **a ?? b** là **a** trừ khi nó là **null/undefined**, sau đó **b**.
+
+##### So sánh
+> Kiểm tra đẳng thức **==** cho các giá trị của các loại khác nhau sẽ chuyển đổi chúng thành một số (ngoại trừ **null** và **undefined** bằng nhau và không có gì khác), vì vậy các giá trị này bằng nhau:
+~~~
+alert( 0 == false ); // true
+alert( 0 == '' ); // true
+~~~
+> Toán tử đẳng thức nghiêm ngặt **===** không thực hiện chuyển đổi: các loại khác nhau luôn có nghĩa là các giá trị khác nhau.
+> Các giá trị **null** và **undefined** đặc biệt: chúng bình đẳng ==với nhau và không bình đẳng với bất kỳ thứ gì khác.
+## 2.6. Vòng lặp
