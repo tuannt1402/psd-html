@@ -75,7 +75,7 @@ $ git tag -d tên_tag
 "check…"– kiểm tra một cái gì đó và trả về một boolean, v.v.
 ~~~
 
-## **Các Kiểu Dữ Liệu:**
+## **Các Kiểu Dữ Liệu thông dụng:**
 ### **Dữ Liệu Nguyên Thủy:**
 * **Number:** là kiểu dữ liệu dạng số (tương tự trong toán học). Number trong JavaScript không có cú pháp gì đặc biệt. Bạn chỉ cần viết số ra 
 ~~~

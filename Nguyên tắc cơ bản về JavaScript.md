@@ -32,4 +32,7 @@ alert('World')
 * **boolean** cho các giá trị logic: **true/false**,
 * **null** – một loại có một giá trị duy nhất **null**, nghĩa là “trống rỗng” hoặc “không tồn tại”,
 * **undefined** – một loại có một giá trị duy nhất **undefined**, nghĩa là “không được chỉ định”,
-* **object** và **symbol** – đối với cấu trúc dữ liệu phức tạp và số nhận dạng duy nhất, chúng tôi chưa tìm hiểu về chúng.
+* **object** và **symbol** là cấu trúc dữ liệu phức tạp và số nhận dạng duy nhất.
+## 2.6. Sự Tương Tác
+### Chức năng cơ bản:
+* **prompt(question, [default])**
