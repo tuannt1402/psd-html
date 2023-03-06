@@ -47,4 +47,9 @@ alert('World')
 
 ## 2.5. Operators
 ### Số học
-#### Hỗ trợ các toán tử: **+ - * /**, cũng như **%** số dư và ** ** ** lũy thừa của một số
+##### Hỗ trợ các toán tử: + - * /, cũng như % số dư và ** lũy thừa của một số
+##### Nhị phân cộng + nối các chuỗi. Và nếu bất kì toán hạng nào là 1 chuỗi, thì toán hạng còn lại cũng được chuyển thành chuỗi:
+~~~
+alert( '1' + 2 ); // '12', string
+alert( 1 + '2' ); // '12', string
+~~~
