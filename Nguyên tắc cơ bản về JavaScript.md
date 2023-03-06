@@ -72,3 +72,46 @@ alert( 0 == '' ); // true
 > Toán tử đẳng thức nghiêm ngặt **===** không thực hiện chuyển đổi: các loại khác nhau luôn có nghĩa là các giá trị khác nhau.
 > Các giá trị **null** và **undefined** đặc biệt: chúng bình đẳng ==với nhau và không bình đẳng với bất kỳ thứ gì khác.
 ## 2.6. Vòng lặp
+* 3 loại vòng lặp:
+
+~~~
+// 1
+while (condition) {
+  ...
+}
+
+// 2
+do {
+  ...
+} while (condition);
+
+// 3
+for(let i = 0; i < 10; i++) {
+  ...
+}
+~~~
+
+* Biến được khai báo trong **for(let...)** vòng lặp chỉ hiển thị bên trong vòng lặp. Nhưng chúng ta cũng có thể bỏ qua **let** và sử dụng lại một biến hiện có.
+* Chỉ thị **break/continue**cho phép thoát khỏi toàn bộ vòng lặp/lặp lại hiện tại. Sử dụng nhãn để ngắt các vòng lặp lồng nhau.
+
+## 2.7. Cấu trúc "switch"
+Cấu trúc “switch” có thể thay thế nhiều **if** lần kiểm tra. Nó sử dụng ***===**(bình đẳng nghiêm ngặt) để so sánh.
+
+~~~
+let age = prompt('Your age?', 18);
+
+switch (age) {
+  case 18:
+    alert("Won't work"); // the result of prompt is a string, not a number
+    break;
+
+  case "18":
+    alert("This works!");
+    break;
+
+  default:
+    alert("Any value not equal to one above");
+}
+~~~
+## 2.8. Chức năng
+
