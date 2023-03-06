@@ -10,12 +10,12 @@ alert('Hello')
 alert('World')
 ~~~
 ### => Hầu hết đều đặt dấu chấm phẩy sau mỗi câu lệnh, Dấu chấm phẩy không bắt buộc sau các khối mã {...}
-## 2.3. Chế độ nghiêm ngặt "user" strict
+## 2.2. Chế độ nghiêm ngặt "user" strict
 ### chỉ thị phải viết ở đầu tập lệnh hoặc đầu thân hàm
 ~~~
 'user strict';
 ~~~
-## 2.4. Biến
+## 2.3. Biến
 ### Khai báo:
 * **let** : phạm vi khối mã(block), có thể được cập nhật nhưng không thể khai báo lại
 * **const** : phạm vi khối mã(block), không thể cập nhật và không thể khai báo lại
@@ -33,6 +33,18 @@ alert('World')
 * **null** – một loại có một giá trị duy nhất **null**, nghĩa là “trống rỗng” hoặc “không tồn tại”,
 * **undefined** – một loại có một giá trị duy nhất **undefined**, nghĩa là “không được chỉ định”,
 * **object** và **symbol** là cấu trúc dữ liệu phức tạp và số nhận dạng duy nhất.
-## 2.6. Sự Tương Tác
+## 2.4. Sự Tương Tác
 ### Chức năng cơ bản:
 * **prompt(question, [default])**
+> Hỏi **question** và trả lại những gì khách truy cập đã nhập hoặc **null** nếu họ nhấp vào “hủy”.
+
+* **confirm(question)**
+> Hỏi a **question** và đề nghị chọn giữa Ok và Cancel. Lựa chọn được trả về dưới dạng **true/false**.
+
+* **alert(message)**
+> Đầu ra một **message**.
+#### => Các chức năng này đều là *phương thức* , chúng tạm dừng thực thi mã và ngăn khách truy cập tương tác với trang cho đến khi họ trả lời.
+
+## 2.5. Operators
+### Số học
+#### Hỗ trợ các toán tử: **+ - * /**, cũng như **%** số dư và ** ** ** lũy thừa của một số
